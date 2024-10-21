@@ -1,0 +1,47 @@
+html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+        }
+
+        /* <!-- CSS لضبط الصور داخل السلايدر --> */
+        .swiper-slide img {
+            width: 100%;
+            /* تعيين العرض ليمتد على عرض السلايدر */
+            height: 100%;
+            /* تعيين الارتفاع ليمتد على ارتفاع السلايدر */
+            object-fit: cover;
+            /* ضبط الصورة بحيث تغطي المساحة بالكامل دون تشويه النسبة */
+        }
+
+        .navnav {
+            background-color: black;
+        }
+
+        /* Add this to your CSS file or within your style tags */
+        .shadow-down {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            /* Adjust the values based on your preference */
+        }

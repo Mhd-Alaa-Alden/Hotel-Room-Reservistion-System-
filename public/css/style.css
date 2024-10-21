@@ -1,0 +1,49 @@
+/* أسلوب النهاري */
+body {
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* أسلوب الليلي */
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode header {
+    background-color: #444;
+  }
+  
+  /* أيقونات الشمس والقمر */
+  .sun-icon,
+  .moon-icon {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 25px;
+    cursor: pointer; /* تجعل الأيقونات قابلة للنقر */
+  }
+  
+  .sun-icon::before {
+    content: '\2600'; /* شمس */
+  }
+  
+  .moon-icon::before {
+    content: '\1F319'; /* قمر */
+  }
+  
+  .sun-icon {
+    color: #FFD700; /* لون الشمس في النهار */
+  }
+  
+  .moon-icon {
+    color: #888; /* لون القمر في الليل */
+  }
+  /* ----------------------------------------- */
+

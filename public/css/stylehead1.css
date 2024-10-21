@@ -1,0 +1,29 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h-font {
+    font-family: 'Merienda', cursive;
+}
+
+.stars i {
+    color: gold;
+}
+
+/* أنميشن */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* تطبيق الأنميشن على الصفحة */
+body {
+    animation: fadeInDown 1s ease both;
+}
