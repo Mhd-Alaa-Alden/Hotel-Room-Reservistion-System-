@@ -1,12 +1,11 @@
-import './bootstrap';
+import "./bootstrap";
 
-
-const welcomeText = document.getElementById('welcomeText');
+const welcomeText = document.getElementById("welcomeText");
 // const spanText = document.getElementById('spanText');
 const text = "Welcome to ANS Hotel";
 // const span = "We Are Creative space";
 let index = 0;
-
+// here
 function typeWriter() {
     if (index < text.length) {
         welcomeText.textContent += text.charAt(index);
@@ -21,7 +20,7 @@ function typeWriter() {
 typeWriter();
 // ----------------------------------------
 
-//  Script For Landing Slider Auto 
+//  Script For Landing Slider Auto
 // start let landing
 let landing = document.querySelector(".landing-page");
 
@@ -33,10 +32,9 @@ setInterval(() => {
     let randomNumber = Math.floor(Math.random() * Arrayimages.length);
 
     // change background image url
-    landing.style.backgroundImage = 'url("../img/photos/' + Arrayimages[randomNumber] + '")';
+    landing.style.backgroundImage =
+        'url("../img/photos/' + Arrayimages[randomNumber] + '")';
 }, 2000);
-
-
 
 var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
@@ -55,12 +53,12 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
+src = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js";
+src =
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js";
+integrity =
+    "sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM";
+crossorigin = "anonymous";
 
-src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
- src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-     crossorigin="anonymous"
-
-
- src="https://code.jquery.com/jquery-3.6.0.min.js"
- src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+src = "https://code.jquery.com/jquery-3.6.0.min.js";
+src = "https://code.jquery.com/ui/1.12.1/jquery-ui.min.js";
