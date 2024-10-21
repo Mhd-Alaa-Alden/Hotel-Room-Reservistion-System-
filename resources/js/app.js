@@ -5,7 +5,7 @@ const welcomeText = document.getElementById("welcomeText");
 const text = "Welcome to ANS Hotel";
 // const span = "We Are Creative space";
 let index = 0;
-// here
+// here 121212
 function typeWriter() {
     if (index < text.length) {
         welcomeText.textContent += text.charAt(index);
